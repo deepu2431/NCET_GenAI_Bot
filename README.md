@@ -1,1 +1,3 @@
-# NCET_GenAI_Bot
+# NCET_GenAI_Bot 
+hi 
+welcom my account

@@ -1,5 +1,6 @@
 import streamlit as st
 from groq import Groq
+
 st.set_page_config("Deepak Content Generator",layout="wide")
 st.title("Deepak– Content Generator")
 st.image("images (4).jpeg")

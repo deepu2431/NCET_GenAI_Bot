@@ -1,8 +1,8 @@
 import streamlit as st
 from groq import Groq
 
-sd.set_page_config("PragyanAi Content Generator",layout="wide")
-st.image("")
+sd.set_page_config("Deepak Content Generator",layout="wide")
+st.image(""C:\Users\DEEPU\OneDrive\Pictures\images (4).jpeg"")
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 # Get Product Name and Audience for That Product

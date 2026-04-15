@@ -23,7 +23,7 @@ if st.button("Generate Content"):
 
 # After Content Create - Download The File
 if "text" in st.session_state:
-    content = st.text_area("Generated Content", st.session_state.text, height=300)
+    content = st.text_area("Generated Content", st.session_state.text, height=200)
     st.download_button(
             label="⬇️ Download as TXT",
             data=content,

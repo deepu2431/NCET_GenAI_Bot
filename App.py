@@ -2,6 +2,7 @@ import streamlit as st
 from groq import Groq
 
 st.set_page_config("Deepak Content Generator",layout="wide")
+st.title("Deepak– Content Generator")
 st.image(""C:\Users\DEEPU\OneDrive\Pictures\images (4).jpeg"")
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
